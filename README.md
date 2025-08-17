@@ -86,10 +86,10 @@ The following RESTful endpoints are designed to interact with the system's entit
 ## 📦 **How to Run**
 1.  **Clone the repository**:
     ```bash
-    git clone [YOUR_REPOSITORY_URL_HERE]
-    cd online-grocery-order-management
+    git clone https://github.com/SaiManohar-007/Order-Management-Grocery-
+    cd Order-Management-Grocery-
     ```
-    (Replace `[YOUR_REPOSITORY_URL_HERE]` with the actual URL of your GitHub repository.)
+    
 2.  **Configure the database**:
     * For **H2 (in-memory, recommended for local dev)**: No specific setup needed. The application will use an in-memory database by default.
     * For **MySQL**: Update `src/main/resources/application.properties` with your MySQL connection details (URL, username, password).
